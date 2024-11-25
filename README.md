@@ -1,14 +1,14 @@
 # BookIt
 Created **Rest APIs** for movie ticket booking application using **Spring Boot, MySQL, JPA**
 
-#**Features:**
+# Features: 
 1. Add the shows, movies, seats, theaters
 2. Book seats for a show with concurrency handling
 3. Fetch all the seats of a show
 4. Update the seat status on payment
 5. Schedule the seat status update every minute
 
-#**Steps to setup:**
+# Steps to setup:
 
 1. Create MySQL database movie_ticket_booking
 2. Change MySQL password and username accordingly
@@ -18,8 +18,8 @@ change spring.datasource.username and spring.datasource.password as per your mys
 
 The app will run at http://localhost:8080.
 
-**Test REST APIs:**<br>
-You can use PostMan or any other platform to test the APIs as in the controllers
+# Test REST APIs:
+You can use PostMan or any other platform to test the APIs as in the controllers<br>
 /booking
 /payment
 /show
