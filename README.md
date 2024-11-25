@@ -13,12 +13,13 @@ Created **Rest APIs** for movie ticket booking application using **Spring Boot, 
 1. Create MySQL database movie_ticket_booking
 2. Change MySQL password and username accordingly
 
-open src/main/resources/application.properties
+open src/main/resources/application.properties<br><br>
 change spring.datasource.username and spring.datasource.password as per your mysql installation
 
 The app will run at http://localhost:8080.
 
-**Test REST APIs**
+**Test REST APIs:**<br>
+<br><br>
 You can use PostMan or any other platform to test the APIs as in the controllers
 /booking
 /payment
