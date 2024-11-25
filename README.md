@@ -1,5 +1,5 @@
 # BookIt
-Created **Rest APIs** for movie ticket booking application using **Spring Boot, MySQL, JPA**
+Created CRUD **Rest APIs** for movie ticket booking application using **Spring Boot, MySQL, JPA**
 
 # Features: 
 1. Add the shows, movies, seats, theaters
