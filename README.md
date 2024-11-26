@@ -17,7 +17,7 @@ open ```src/main/resources/application.properties```<br>
 change ```spring.datasource.username``` and ```spring.datasource.password``` as per your mysql installation<br><br>
 The app will run at http://localhost:8080.
 # Run the project:
-Install the dependencies ```./mvnw clean install```
+Install the dependencies ```./mvnw clean install```<br><br>
 Run the application ```./mvnw spring-boot:run```
 # Test REST APIs:
 You can use PostMan or any other platform to test the APIs as in the controllers<br>
