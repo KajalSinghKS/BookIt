@@ -1,5 +1,5 @@
 # BookIt
-Created CRUD **Rest APIs** for movie ticket booking application using **Spring Boot, MySQL, JPA**
+Created CRUD **Rest APIs** for movie ticket booking application using **Spring Boot, MySQL, Hibernate**
 
 # Features: 
 1. Add the shows, movies, seats, theaters
@@ -12,8 +12,7 @@ Created CRUD **Rest APIs** for movie ticket booking application using **Spring B
 
 1. Create MySQL database movie_ticket_booking
 2. Change MySQL password and username accordingly
-
-open ```src/main/resources/application.properties```<br><br>
+open ```src/main/resources/application.properties```<br>
 change ```spring.datasource.username and spring.datasource.password``` as per your mysql installation
 
 The app will run at http://localhost:8080.
