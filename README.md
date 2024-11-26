@@ -19,7 +19,7 @@ The app will run at http://localhost:8080.
 Install the dependencies ```./mvnw clean install```<br><br>
 Run the application ```./mvnw spring-boot:run```
 # Test REST APIs:
-You can use PostMan or any other platform to test the APIs as in the controllers<br>
+You can use PostMan or any other platform to test the APIs as in the controllers<br><br>
 /booking<br>
 /payment<br>
 /show<br>
