@@ -1,7 +1,7 @@
 # BookIt
 Created CRUD **Restful APIs** for movie ticket booking application using **Spring Boot, MySQL, Spring Data JPA**
 # Requirements
-Java 17+<br>
+Java 17+<br><br>
 Maven
 # Features: 
 1. Add the shows, movies, seats, theaters
