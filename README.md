@@ -10,7 +10,7 @@ Created CRUD **Rest APIs** for movie ticket booking application using **Spring B
 1. Create MySQL database movie_ticket_booking
 2. Change MySQL password and username accordingly<br><br>
 open ```src/main/resources/application.properties```<br>
-change ```spring.datasource.username and spring.datasource.password``` as per your mysql installation<br><br>
+change ```spring.datasource.username``` and ```spring.datasource.password``` as per your mysql installation<br><br>
 The app will run at http://localhost:8080.
 # Test REST APIs:
 You can use PostMan or any other platform to test the APIs as in the controllers<br>
