@@ -28,7 +28,7 @@ public class SeatStatusScheduler {
     @Transactional
     @Scheduled(cron="0 0/1 * * * *")
     public void scheduler(){
-        List<Booking>pendingBookings=bookingRepository.findBookingCreatedAt("PENDING", LocalDateTime.now().minusMinutes(5));
+        List<Booking>pendingBookings=bookingRepository.findBookingCreatedAt("PENDING", LocalDateTime.now().minusMinutes(10));
 
         for(Booking pending:pendingBookings){
             updateStatus(pending);
