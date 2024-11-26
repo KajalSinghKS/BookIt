@@ -4,9 +4,9 @@ Created CRUD **Restful APIs** for movie ticket booking application using **Sprin
 Java 17<br><br>
 Spring Boot 3.3.3
 # Features: 
-1. Add the shows, movies, seats, theaters
-2. Book seats for a show with concurrency handling
-3. Fetch all the seats of a show
+1. Add the theaters, movies, shows, seats
+2. Fetch all the seats of a show
+3. Book seats for a show with concurrency handling
 4. Update the seat status on payment
 5. Schedule the seat status update every minute
 # Database Setup:
